@@ -8,14 +8,6 @@ function Header() {
         <AiFillAliwangwang className="f-icon" />
         Social Media
       </div>
-      <div className="navigation">
-        <button className="b">
-          <MdHome className="f-icon" />
-        </button>
-        <button className="b">
-          <CgProfile className="f-icon" />
-        </button>
-      </div>
     </div>
   );
 }

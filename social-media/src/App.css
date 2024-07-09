@@ -1,8 +1,8 @@
 /* src/components/Header.css */
 .header {
   font-size: 15px;
-  background-color: #044cdd;
-  color: white;
+  background-color: #700505;
+  color: rgb(223, 22, 237);
   padding: 10px 20px;
   text-align: left;
   display: flex;
@@ -20,8 +20,8 @@
   padding: 10px;
   border-radius: 5px;
   height: 200px;
-  box-shadow: 10px 10px 10px gray;
-  background-color:rgb(228, 220, 220); ;
+  box-shadow: 10px 10px 10px rgb(158, 5, 5);
+  background-color:rgb(203, 9, 9) ;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /* src/components/Feed.css */
@@ -61,7 +61,7 @@ border: none;
 }
 .home-page{
   display: flex;
-  background-color: rgb(210, 204, 204);
+  background-color: rgb(241, 9, 9);
   height: auto;
   min-height: 300px;
 }
@@ -69,18 +69,18 @@ border: none;
   margin-top: 50px;
   height: 30px;
   width: 100px;
-  background-color: rgb(228, 220, 220); ;;
+  background-color: rgb(215, 95, 95) ;;
   border: none;
   border-radius: 5px;
   font-size: medium;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .create-b:hover{
-  background-color: rgba(0, 13, 255, 0.948);
-  box-shadow: 2px 2px 2px rgba(6, 15, 199, 0.948); 
+  background-color: rgba(244, 11, 18, 0.986);
+  box-shadow: 2px 2px 2px rgba(183, 6, 12, 0.986); 
 }
 .like-number{
-  background-color: rgb(228, 220, 220);
+  background-color: rgb(203, 9, 9);
   border: none;
 }
 .no-post{

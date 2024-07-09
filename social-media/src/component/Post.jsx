@@ -12,7 +12,7 @@ function Post({ name, con, id, del }) {
     <div className="post">
       <h2>{name}</h2>
       <p className="content">{con}</p>
-      <p>{id}</p>
+
       <div>
         <button className="like-b" onClick={handellike}>
           <AiFillLike />

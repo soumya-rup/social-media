@@ -15,8 +15,10 @@ function App() {
     setcurrent("home");
   };
   const handeldata = (name, con, id) => {
-    const newArr = [...posts, { user: name, content: con, id: id }];
-    setPosts(newArr);
+    if (name !== "") {
+      const newArr = [...posts, { user: name, content: con, id: id }];
+      setPosts(newArr);
+    }
   };
   const handeldel = (id) => {
     const newItem = posts.filter((item) => item.id !== id);
